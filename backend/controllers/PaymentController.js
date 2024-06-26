@@ -1,5 +1,4 @@
-const STRIPE_SECRET_KEY = 'sk_test_51P4RqnFFsE5TFYGd2s9AUBeX4cf1IkZSK1mvOvPii94hLEapaoFaysuOxyPL6WtKHPPV9bIMpu86tCwcxYOFhsuw00PUSipAEP'
-const stripe = require('stripe')(STRIPE_SECRET_KEY);
+const stripe = require('stripe')(procces.env.STRIPE_SECRET_KEY);
 class PaymentController {
 
     async createPaymentIntent(req, res, next) {
