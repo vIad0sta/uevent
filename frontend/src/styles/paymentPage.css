@@ -1,0 +1,40 @@
+/* paymentPage.css */
+
+.payment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.payment-form {
+    height: auto;
+    width: auto;
+    min-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+
+.payment-button {
+    margin-top: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.payment-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.payment-error {
+    color: #ff0000;
+    margin-top: 10px;
+}

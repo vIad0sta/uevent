@@ -1,0 +1,69 @@
+.company-creator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.company-form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatar-container label {
+    cursor: pointer;
+}
+
+.avatar-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/*.form-input {*/
+
+/*    margin-bottom: 20px;*/
+/*}*/
+/*.form-input input {*/
+/*    width: 100%;*/
+/*    height: 50px; !* Adjust height as needed *!*/
+/*    padding: 0; !* Adjust padding as needed *!*/
+/*    border: 1px solid #ccc; !* Add border for clarity *!*/
+/*    border-radius: 4px; !* Add border radius for aesthetics *!*/
+/*    box-sizing: border-box; !* Ensure padding and border are included in the width *!*/
+/*}*/
+
+
+.map-container {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+}
+
+.submit-button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+

@@ -1,0 +1,30 @@
+.ticket-creator-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-creator-container form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket-creator-container form > div {
+    margin-bottom: 20px;
+}
+
+.ticket-creator-container form .MuiTextField-root {
+    width: 100%;
+}
+
+.ticket-creator-container form .MuiButton-root {
+    width: 100%;
+}

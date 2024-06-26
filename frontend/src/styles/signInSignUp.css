@@ -1,0 +1,117 @@
+.sign-in-container {
+    background-color: #469597;
+    border-left: 20px solid tan;
+    border-right: 20px solid tan;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    width: 50%;
+}
+
+.sign-in-container form {
+    border: 2px solid tan ;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 40%; /* Adjust width as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+.sign-in-container input[type="text"],
+.sign-in-container input[type="password"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.sign-in-container button[type="submit"] {
+    margin-top: 10px;
+    width: 75%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    font-weight: bold;
+    font-size: 17px;
+    transition: background-color 0.3s ease;
+}
+
+.sign-in-container button[type="submit"]:hover {
+    background-color: #DDBEAA;
+    color: #fff; /* Change text color on hover if needed */
+}
+
+.sign-up-container {
+    background-color: #469597;
+    border-left: 20px solid tan;
+    border-right: 20px solid tan;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    width: 50%;
+}
+
+.sign-up-container form {
+    min-height: 500px;
+    height: fit-content;
+    border: 2px solid tan ;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+.sign-up-container input[type="text"],
+.sign-up-container input[type="email"],
+.sign-up-container input[type="password"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.sign-up-container button[type="submit"] {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    font-weight: bold;
+    font-size: 17px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+.restore-password-link {
+    color: #007bff; /* Default color */
+    text-decoration: none; /* Remove underline */
+    margin-top: 10px; /* Add some spacing */
+    display: inline-block; /* Ensure it's displayed inline */
+    transition: color 0.3s ease; /* Add transition for color with duration 0.3s and ease timing function */
+}
+
+.restore-password-link:hover {
+    color: cornflowerblue; /* Change color on hover */
+}

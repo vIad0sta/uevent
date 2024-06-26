@@ -1,0 +1,42 @@
+.tickets-container {
+    font-family: Arial, sans-serif;
+}
+
+.ticket-element {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.ticket-element h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.ticket-element h4 {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #555;
+}
+
+.ticket-element span {
+    display: inline-flex;
+    align-items: center;
+    color: #555;
+}
+
+.ticket-element .MuiSwitch-root {
+    margin-left: 10px;
+}
+
+.ticket-element .MuiSwitch-colorWarning.Mui-checked {
+    color: #f0ad4e;
+}
+
+.ticket-element .MuiSwitch-colorWarning.Mui-checked + .MuiSwitch-track {
+    background-color: #f0ad4e;
+}

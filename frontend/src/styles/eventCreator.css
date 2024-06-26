@@ -1,0 +1,65 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.event-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #007bff;
+    background-color: darkslategrey;
+    text-align: center; /* Center align all inputs */
+    position: relative; /* Required for pseudo-element */
+    overflow: hidden; /* Prevents shadow clipping */
+    box-shadow: 0 0 10px 5px #007bff; /* Adjust box-shadow properties */
+
+}
+
+
+
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.avatar-container img {
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.file-input {
+    display: none;
+}
+
+.text-input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.map-container {
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.switch-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.switch-label {
+    margin-right: 10px;
+}

@@ -1,0 +1,57 @@
+
+
+.toolbar-container {
+    height: 0;
+    overflow-y: hidden;
+    transition: height 0.5s ease; /* Add transition effect */
+    display: flex; /* Add flexbox display */
+    justify-content: center; /* Center horizontally */
+    scrollbar-width: none; /* Hide the scrollbar */
+    color: white;
+}
+
+.toolbar-container.show {
+    color: white;
+    width: 100%;
+    background-color: transparent; /* Add background color */
+    padding: 5px 10px; /* Adjust padding for spacing */
+    height: 100px;
+    overflow-y: auto; /* Enable scrolling if events exceed the height */
+    border-radius: 10px;
+}
+
+.toolbar-container label {
+    margin-right: 10px; /* Adjust spacing between label and buttons */
+}
+
+.toolbar-container button {
+    background-color: tan;
+    border: none;
+    color: white;
+    padding: 12px 20px; /* Increase button padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; /* Increase font size */
+    margin: 8px 4px; /* Adjust margin */
+    cursor: pointer;
+    border-radius: 8px; /* Increase border radius */
+    transition: box-shadow 0.3s;
+}
+
+
+.toolbar-container button:hover {
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.5); /* Add shadow effect on hover */
+}
+
+.toolbar-container select {
+    padding: 6px 8px; /* Adjust padding for select box */
+    border: none;
+    border-radius: 4px;
+    font-size: 14px; /* Decrease font size */
+}
+
+.toolbar-container select:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 2px; /* Add custom focus style */
+}
